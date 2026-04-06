@@ -19,7 +19,6 @@ if len(gastos) > 0:
     mas_barato = min(gastos, key = lambda g: g['precios'])
     if total < 10000.00:
         print("Los gastos son: ")
-        contador = 0
         for i, elemento in enumerate (gastos, start=1):
                 print(f"{i}. {elemento['cosas']}")
         print(f"Los costos totales son: {total:.2f}")
