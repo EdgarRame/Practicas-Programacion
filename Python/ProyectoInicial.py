@@ -12,12 +12,11 @@ while True:
     
     edad = int(input(f"Introduzca la edad de {nombre}: "))
     alumno.append({"nombre": nombre, "edad": edad})
-
-
 # Reporte de alumnos
 print("\n Reporte de los alumnos")
-print(len(alumno))
-
-# Edades
-menor = min(alumno, key=lambda x: x['edad'])
-print(f"El alumno más joven es: {menor['nombre']}, y su edad es: {menor['edad']}")
+if len(alumno) > 0:
+    # Edades
+    menor = min(alumno, key=lambda x: x['edad'])
+    print(f"El alumno más joven es: {menor['nombre']}, y su edad es: {menor['edad']}")
+else:
+    print("No se ingresaron alumnos")
