@@ -2,7 +2,7 @@ class Vehiculo: # Para generar mi clase
 # Creación de objetos
     def __init__(self, marca, modelo, combustible): # __init__ es el constructor con sus atributos
         self.marca = marca # self es para referirse asi mismo como un get y set
-        self. modelo = modelo
+        self.modelo = modelo
         self.combustible = combustible
 
 # Creación del metodos (Que hara el objeto)
