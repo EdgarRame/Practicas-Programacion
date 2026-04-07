@@ -5,8 +5,8 @@ class Empleado:
         self.salario_base = salario_base
 
     def calcular_salario_neto(self):
-        impuesto = self.salario_base * 0.16
-        return self.salario_base - impuesto
+        impuestos = self.salario_base * 0.16
+        return self.salario_base - impuestos
 
 
 empleados = []
@@ -20,7 +20,7 @@ for i in range(3):
     empleado = Empleado(nombre, puesto, salario_base)
     empleados.append(empleado)
 
-print("\nResumen de salarios netos:")
+print("\nSalarios netos:")
 for empleado in empleados:
     salario_neto = empleado.calcular_salario_neto()
     print(f"{empleado.nombre}: {salario_neto:.2f}")
