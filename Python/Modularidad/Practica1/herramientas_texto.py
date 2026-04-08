@@ -1,7 +1,8 @@
-def limpiar_espacios(self):
-    print("Hola")
+# Función para eliminar espacios en el texto.
+def limpiar_espacios(texto):
+    return texto.replace(" ", "").upper()
 
 
-
-def mayusculas_texto(self):
-    print("Hola")
+# Función de convertir el texto a todo mayusculas.
+def mayusculas_texto(texto):
+    return texto.upper()
