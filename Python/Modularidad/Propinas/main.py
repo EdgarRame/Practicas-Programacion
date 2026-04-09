@@ -1,4 +1,4 @@
-import cuenta as c
+import atencion as c
 import propinas as p
 
 
