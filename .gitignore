@@ -1,7 +1,14 @@
+#Archivos de datos
+*.csv
+
+
+# Archivos Cache de Python
 __pycache__
 *.pyc
 
+# Entornos de Python
 .venv/
 .env
 
+# Archivos del ID
 .vscode/
