@@ -15,7 +15,7 @@ sns.barplot(x = 'Pclass', y = 'Fare', data = df, palette = 'Oranges',
 # Etiquetas de la grafica
 plt.title('Comparativa de Clases')
 plt.xlabel('Clases: (1 = Primera Clase 2 = Confort 3 = Economica)')
-plt.ylabel('Precios')
+plt.ylabel('Precios (Precios que se pagan)')
 
 # Se muestra la grafica
 plt.show()
